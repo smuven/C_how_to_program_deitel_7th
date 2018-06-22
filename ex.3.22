@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 
 /* Exercise 3.21 [C : How to Program, 7th Edition by Paul Deitel, Harvey Deitel]
@@ -12,6 +13,7 @@ int main()
     
     for ( i = 1; i <= 10; i++) {
         printf("%d   ", i);
-        }
- 
+        
+    }
+    printf("\n");
 }
