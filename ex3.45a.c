@@ -23,14 +23,16 @@ int main()
     
     if ( number == 0 ) {
         factorial = 1;
+        printf( "n! is : %d \n" , factorial );
     }
-    
-    while ( number != 1) {
+    else {
+        while ( number != 1) {
+            
+            factorial =  factorial  * number ;
+            number--;
+        }
         
-        factorial =  factorial  * number ;
-        number--;
+        printf( "n! is : %d \n" , factorial );
     }
-    
-    printf( "n! is : %d \n" , factorial );
-
 }
+    
