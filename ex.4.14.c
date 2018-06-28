@@ -14,7 +14,7 @@
 int main()
 {
     int i , f ;
-    int n = 5;
+    int n ;
     
     for (i = 1; i <= 10; i++){
         n = i;
